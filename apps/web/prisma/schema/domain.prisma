@@ -21,7 +21,7 @@ model Domain {
 
 model DefaultDomains {
   id          String  @id @default(cuid())
-  dublink     Boolean @default(false)
+  msclm       Boolean @default(true)
   dubsh       Boolean @default(true)
   chatgpt     Boolean @default(true)
   sptifi      Boolean @default(true)
